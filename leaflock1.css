@@ -1,0 +1,162 @@
+
+.NavBar{
+    display: flex;
+    background-color:white;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-weight: 900;
+
+    text-decoration: none;
+    position: static;
+}
+.NavBar ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0;
+}
+.NavBar li{
+    list-style-type: none;
+    margin-left: 2vh;
+}
+.login:hover{
+    background-color:rgb(23, 139, 233);
+    border-radius: 25px;
+}
+.login{
+    background-color: rgba(23, 139, 233, 0.303);
+}
+.Navbar a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 900;
+    align-self: center;
+
+}
+.login, .SignUp{
+    border: none;
+    outline: none;
+    color: black;
+    padding: 2vh 2vh;
+    margin: 0;
+    border-radius: 25px;
+}
+.SignUp{
+    background-color: rgb(23, 139, 233);
+}
+.btna{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: lighter;
+    align-self: center;
+}
+.title{
+    background-color: white;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    align-self: center;
+    font-size: 25px;
+} 
+.dropdown {
+    float: left;
+    overflow: hidden;
+  } 
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 2vh 2vh;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  } 
+  .Navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(23, 139, 233);
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.containeritem{
+    background-color: red;
+    border: solid 2px black;
+    width: 40%;
+    height: 70%;
+}
+.page{
+    display:flex;
+    height: 85vh;
+    background-color: antiquewhite;
+    margin: 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.page1{
+  display:flex;
+  height: 100vh;
+  background-color: rgb(239, 124, 42);
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.page2{
+  display:flex;
+  height: 100vh;
+  background-color: rgb(42, 213, 239);
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.page3{
+  display:flex;
+  height: 100vh;
+  background-color: rgb(224, 38, 63);
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.page4{
+  display:flex;
+  height: 100vh;
+  background-color: rgb(151, 90, 127);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.page5{
+  display:flex;
+  height: 100vh;
+  background-color: rgb(61, 152, 51);
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
